@@ -1,0 +1,6 @@
+<Alloy>
+   <Window class="container">
+   	<Button id="allowPush" onClick="doClick">Allow Push Notifications?</Button>
+   	<Button id="facebookConnect" onClick="doClick">Connect to FaceBook?</Button>
+   	</Window>
+</Alloy>
