@@ -1,14 +1,18 @@
-"Window": {
-	backgroundColor: "#fff"
+".container" : {
+	backgroundColor: "#black"
+},
+"#image" : {
+	top : 10
+},
+"#loginButton" : {
+	top : 400,
+	width : '70%',
+	height : '52dp',
+	color : 'black'	
+},
+"#forgotPasswordButton" : {
+	top : 450,
+	width : '70%',
+	height : '52dp',
+	color : 'black'
 }
-
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000",
-	font: {
-		fontSize: 20,
-		fontFamily: 'Helvetica Neue'
-	},
-	textAlign: 'center'
-} 

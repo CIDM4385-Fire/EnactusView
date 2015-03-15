@@ -1,23 +1,28 @@
-$.index.open();
-
 var win = Ti.UI.createWindow({
-  backgroundColor: 'white'
+	backgroundColor : "black"
 });
-
 var emailTextField = Ti.UI.createTextField({
   borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
-  color: '#336699',
-  top: 10, left: 10,
+  color: '#FFFFFF',
+  top: "25%", 
   hintText:"Email:",
-  width: 250, height: 60
+  width: 300, height: 60
 });
+win.add(emailTextField);
+win.open();
 
 var passwordTextField = Ti.UI.createTextField({
 	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
-	color: '#336699',
-	top: 15, left: 10,
+	color: '#FFFFFF',
+	top: "45%",
 	hintText:"Password",
-	wideth: 250, height: 60
+	width: 300, height: 60
 });
-win.add(textField);
+win.add(passwordTextField);
 win.open();
+
+function doClick(e){	
+  alert("You are logged in");
+}
+$.index.open();
+
