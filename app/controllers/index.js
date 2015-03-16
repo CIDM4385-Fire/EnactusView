@@ -7,4 +7,3 @@ function doClick(e){
   alert("You are logged in");
 }
 $.index.open();
-
