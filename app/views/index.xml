@@ -1,6 +1,9 @@
 <Alloy>
-   <Window class="container">
-   	<Button id="loginButton" onClick="doClick" title="Login"></Button>
-   	<Button id="forgotPasswordButton" onClick="doClick" title="Forgot Password"></Button>
-   	</Window>
+      <Window class="container" backgroundColor="black">
+     	<Button id="loginButton" onClick="doClick" title="Login"></Button>
+    	<Button id="forgotPasswordButton" onClick="doClick" title="Forgot Password"></Button>
+   	    <TextField id="emailTextField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="white" hintText="Email"/>
+   	    <TextField id="passwordTextField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="white" hintText="Password"/>
+   	    <ImageView id="image" image="/Images/Enactus.png" />
+   	 </Window>
 </Alloy>
