@@ -3,8 +3,9 @@
 },
 "#image" : {
 	top : 10,
-	width : '70%',
-	height : '80dp'
+	width: 'Ti.UI.SIZE',
+    height: 'Ti.UI.SIZE',
+    image: '/Images/EnactusCC.jpg'
 },
 "#loginButton" : {
 	top : 400,
